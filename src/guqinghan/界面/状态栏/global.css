@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* 深色主题 - 都市 / 冷艳 / 温馨 */
+  --c-bg: #1a1a24;
+  --c-surface: #22222e;
+  --c-surface-alt: #2a2a38;
+  --c-border: #333348;
+  --c-primary: #d4a0a8;
+  --c-primary-dim: #d4a0a830;
+  --c-body-accent: #9b8ec4;
+  --c-cloth-accent: #6baea8;
+  --c-emotion-accent: #e8b4b8;
+  --c-text: #d0d0d8;
+  --c-text-dim: #7777;
+  --c-text-muted: #666680;
+
+  /* 字体 */
+  --font-main: 'Microsoft YaHei', 'PingFang SC', 'Noto Sans SC', 'Sarasa UI SC', system-ui, sans-serif;
+}

@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "身体": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "小穴": {
+          "default": "未描述",
+          "type": "string"
+        },
+        "后庭": {
+          "default": "未描述",
+          "type": "string"
+        },
+        "乳房": {
+          "default": "未描述",
+          "type": "string"
+        }
+      }
+    },
+    "穿衣": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "上身": {
+          "default": "未描述",
+          "type": "string"
+        },
+        "下身": {
+          "default": "未描述",
+          "type": "string"
+        },
+        "胸罩": {
+          "default": "未描述",
+          "type": "string"
+        },
+        "内裤": {
+          "default": "未描述",
+          "type": "string"
+        },
+        "袜子": {
+          "default": "未描述",
+          "type": "string"
+        }
+      }
+    },
+    "情绪": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "当前情绪": {
+          "default": "平静",
+          "type": "string"
+        }
+      }
+    }
+  }
+}
